@@ -17,25 +17,19 @@ assetsSummary:
   measurementTechnique:
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 60466907552
-  numberOfFiles: 59
-  numberOfSubjects: 21
+  numberOfBytes: 16602528
+  numberOfFiles: 19
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
     name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
   variableMeasured:
-  - ElectricalSeries
-  - LFP
+  - Units
   - ElectrodeGroup
-  - ProcessingModule
 citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; He, Bin (2024) Neural Spiking
   Data in Rats Responding to Optogenetic Stimulation and Transcranial Focused Ultrasound
   Stimulation in the Somatosensory Cortex (Version draft) [Data set]. DANDI archive.
@@ -92,20 +86,17 @@ description: 'In these recordings, we stimulate rats that were injected with AAV
   array ultrasound transducer to stimulate the somatosensory cortex. Electrophysiological
   recordings were acquired using 32-channel NeuroNexus electrodes (Model: A1x32-Poly3-10mm-50-177-A32),
   surgically inserted into the rat brain. Ultrasound stimulation is delivered every
-  2.5 seconds with a 10% jitter, and each recording has 500 trials. The PRFs tested
-  were 30 Hz, 300 Hz, 1500 Hz, 3000 Hz, and 4500 Hz, with pulse durations including
-  4, 40, 200, and 400 microseconds, and a 67 ms ultrasound duration.
+  2.5 seconds with a 10% jitter, and each recording has 500 trials. Optogenetic stimulation
+  was delivered at 120A for 10ms. The PRFs tested were 30 Hz, 300 Hz, 1500 Hz, 3000
+  Hz, and 4500 Hz, with pulse durations including 4, 40, 200, and 400 microseconds,
+  and a 67 ms ultrasound duration.
 
 
-  File Information All 10 subjects were male rats, implanted with their chronic electrode
-  at 6 months of age and then recordings taken first at 8-10 months, and then some
-  repeats taken at 12 months. Within each subject''s folder are recordings for the
-  different PRFs. Most subjects have 5 recordings within, one for each PRF. Some subjects
-  have duplicate recordings taken a few months after the original ones. A few recordings
-  were not included due to excessive noise in the recordings. Files are named in the
-  format SubjectName_PRF_PulseDuration. Each file contains spike time data with the
-  cell type labels included for each neurons, as well as time series data for the
-  onset of each trial of ultrasound stimulation.'
+  File Information: All subjects were male Wistar rats. Ultrasound test files are
+  named in the format SubjectName_PRF_PulseDuration_UltrasoundDuration_Voltage. Optogenetics
+  test files are named in the format SubjectName_opto_Current_Duration_OrderWithinUltrasoundPRFtests
+  .Each file contains spike time data with the time series data for the onset of each
+  trial of ultrasound stimulation or optogenetic stimulation.'
 ethicsApproval: []
 id: DANDI:000955/draft
 identifier: DANDI:000955
