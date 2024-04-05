@@ -79,7 +79,7 @@ contributor:
   schemaKey: Organization
 dateCreated: '2024-04-03T03:30:48.187699+00:00'
 description: 'In these recordings, we stimulate rats that were injected with AAV virus
-  to optogenetically tag for CamKII  to distinguish between excitatory pyramidal neurons
+  to optogenetically tag for CaMKII  to distinguish between excitatory pyramidal neurons
   and inhibitory interneurons. We alternate between stimulating them optogenetically
   in order to tag the neuronal subtype and testing different PRFs (pulse repetition
   frequencies) and pulse durations of ultrasound stimulation using a 128-element random
