@@ -7,29 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 16602528
-  numberOfFiles: 19
-  numberOfSubjects: 1
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-    name: Rattus norvegicus - Norway rat
-    schemaKey: SpeciesType
-  variableMeasured:
-  - Units
-  - ElectrodeGroup
 citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; He, Bin (2024) Neural Spiking
   Data in Rats Responding to Optogenetic Stimulation and Transcranial Focused Ultrasound
   Stimulation in the Somatosensory Cortex (Version draft) [Data set]. DANDI archive.
