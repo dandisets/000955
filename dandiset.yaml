@@ -7,9 +7,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 10556448
+  numberOfFiles: 11
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
 citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; He, Bin (2024) Neural Spiking
   Data in Rats Responding to Optogenetic Stimulation and Transcranial Focused Ultrasound
   Stimulation in the Somatosensory Cortex (Version draft) [Data set]. DANDI archive.
@@ -58,7 +78,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-04-03T03:30:48.187699+00:00'
-description: 'In these recordings, we stimulate rats that were injected with AAV virus
+description: "In these recordings, we stimulate rats that were injected with AAV virus
   to optogenetically tag for CaMKII  to distinguish between excitatory pyramidal neurons
   and inhibitory interneurons. We alternate between stimulating them optogenetically
   in order to tag the neuronal subtype and testing different PRFs (pulse repetition
@@ -69,14 +89,11 @@ description: 'In these recordings, we stimulate rats that were injected with AAV
   2.5 seconds with a 10% jitter, and each recording has 500 trials. Optogenetic stimulation
   was delivered at 120A for 10ms. The PRFs tested were 30 Hz, 300 Hz, 1500 Hz, 3000
   Hz, and 4500 Hz, with pulse durations including 4, 40, 200, and 400 microseconds,
-  and a 67 ms ultrasound duration.
-
-
-  File Information: All subjects were male Wistar rats. Ultrasound test files are
-  named in the format SubjectName_PRF_PulseDuration_UltrasoundDuration_Voltage. Optogenetics
-  test files are named in the format SubjectName_opto_Current_Duration_OrderWithinUltrasoundPRFtests
+  and a 67 millisecond ultrasound duration. \n\nFile Information: All subjects were
+  male Wistar rats. Ultrasound test files are named in the format SubjectName_PRF_PulseDuration_UltrasoundDuration_Voltage.
+  Optogenetics test files are named in the format SubjectName_opto_Current_Duration_OrderWithinUltrasoundPRFtests
   .Each file contains spike time data with the time series data for the onset of each
-  trial of ultrasound stimulation or optogenetic stimulation.'
+  trial of ultrasound stimulation or optogenetic stimulation."
 ethicsApproval: []
 id: DANDI:000955/draft
 identifier: DANDI:000955
