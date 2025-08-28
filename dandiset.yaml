@@ -31,9 +31,9 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; He, Bin (2024) Neural Spiking
+citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; He, Bin (2025) Neural Spiking
   Data in Rats Responding to Optogenetic Stimulation and Transcranial Focused Ultrasound
-  Stimulation in the Somatosensory Cortex (Version draft) [Data set]. DANDI archive.
+  Stimulation in the Somatosensory Cortex (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/000955/draft
 contributor:
 - affiliation: []
@@ -73,8 +73,7 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- includeInCitation: false
-  name: NIH NS131069
+- name: RF1NS131069
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -98,19 +97,16 @@ description: "In these recordings, we stimulate rats that were injected with AAV
 ethicsApproval: []
 id: DANDI:000955/draft
 identifier: DANDI:000955
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000955/versions/draft/assets/
 name: Neural Spiking Data in Rats Responding to Optogenetic Stimulation and Transcranial
   Focused Ultrasound Stimulation in the Somatosensory Cortex
-protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-studyTarget: []
 url: https://dandiarchive.org/dandiset/000955/draft
 version: draft
 wasGeneratedBy: []
