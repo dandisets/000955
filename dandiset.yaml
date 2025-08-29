@@ -73,7 +73,7 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- name: RF1NS131069
+- name: NIH NS131069
   roleName:
   - dcite:Funder
   schemaKey: Organization
